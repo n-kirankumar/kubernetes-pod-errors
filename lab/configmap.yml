@@ -6,7 +6,7 @@ spec:
   containers:                     
     - name: main                                   
       image: ubuntu
-      command: ["/bin/bash", "-c", "while true; do echo Adam-9739110917; sleep 10; done"]
+      command: ["/bin/bash", "-c", "while true; do echo Kiran; sleep 10; done"]
       volumeMounts:
           - name: appconfig
             mountPath: "/tmp/config"    

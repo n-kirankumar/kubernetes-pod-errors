@@ -6,15 +6,15 @@ spec:
    replicas: 1
    selector: 
     matchLabels:
-     wezvatech: adam
+     tech: kiran
    template:
      metadata:
        name: taint
        labels:
-         wezvatech: adam
+         tech: kiran
      spec:
       containers:
         - name: main
           image: ubuntu
-          command: ["/bin/bash", "-c", "while true; do echo Adam-9739110917; sleep 10; done"]
+          command: ["/bin/bash", "-c", "while true; do echo Kiran; sleep 10; done"]
 

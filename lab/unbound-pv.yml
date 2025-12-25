@@ -17,12 +17,12 @@ spec:
   replicas: 1
   selector:     
     matchLabels:
-     wezvatech: adam
+     atech: kiran
   template:
     metadata:
       name: pvd
       labels:
-        wezvatech: adam
+        techh: kiran
     spec:
       containers:
       - name: main

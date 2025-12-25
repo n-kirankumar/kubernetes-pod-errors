@@ -6,7 +6,7 @@ spec:
    replicas: 1
    selector:      
     matchLabels:
-     wezvatech: adam
+     tech: kiran
    template:
      metadata:
        name: healthprobe

@@ -14,15 +14,15 @@ spec:
    replicas: 3
    selector: 
     matchLabels:
-     wezvatech: adam
+     kiran: kiran
    template:
      metadata:
        name: resq
        labels:
-         wezvatech: adam
+         kiran: kiran
      spec:
       containers:
         - name: main
           image: ubuntu
-          command: ["/bin/bash", "-c", "while true; do echo Adam-9739110917; sleep 10; done"]
+          command: ["/bin/bash", "-c", "while true; do echo Kiran ; sleep 10; done"]
 

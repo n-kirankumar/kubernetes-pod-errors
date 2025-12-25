@@ -5,4 +5,4 @@ metadata:
 spec:                             
   containers:                     
     - name: main                                   
-      image: adamtravis/wezvatechspringboot:sep24
+      image: kiran/kiranspringboot:dec24
