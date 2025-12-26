@@ -28,7 +28,7 @@ while [ "$#" -gt 0 ]; do
        -h | --h ) 
 	           clear
 	           echo "==================================================="
-		   echo "#         WEZVATECH - ADAM - 9739110917           #"
+		   echo "#                   #"
 	           echo "==================================================="
                    echo "Syntax:  $0 <option>            # pass any 1 option as below"
                    echo "Example: $0 -option1            # run option1"
